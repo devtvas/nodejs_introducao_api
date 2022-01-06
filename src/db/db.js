@@ -1,10 +1,9 @@
 const mongoose = require("mongoose");
-const uri = process.env.MONGODB_URL
+const uri = "mongodb://localhost/devtvas-api"
 mongoose.Promise = global.Promise;
 
 mongoose
-  .connect(`${uri}`, {
-    // useMongoClient: true
+  .connect(uri, {
     useNewUrlParser: true,
   })
   .then(() => {
