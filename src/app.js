@@ -52,7 +52,6 @@ app.get("/show_post/:post_id", async (req, res) => {
     res.state(400).send(error);
   }
 });
-<<<<<<< HEAD
 
 //alterar por params
 app.patch("/update_post/:post_id", async (req, res) => {
@@ -89,7 +88,3 @@ app.delete("/delete_post/:post_id", async (req, res) => {
 app.listen(PORT, () => {
   console.log("running on port: " + PORT);
 });
-=======
-//definindo a porta do servidor
-app.listen(5000, () => console.log(`running on port: ${5000}`));
->>>>>>> 9685e7ce91f055af9e156473ca61a364d2ae5361
