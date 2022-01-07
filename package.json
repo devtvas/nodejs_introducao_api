@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node src/app",
+=======
+>>>>>>> 9685e7ce91f055af9e156473ca61a364d2ae5361
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
+=======
+>>>>>>> 9685e7ce91f055af9e156473ca61a364d2ae5361
     "express": "^4.17.2",
     "mongoose": "^6.1.5"
   }

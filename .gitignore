@@ -127,5 +127,9 @@ dist
 .pnp.*
 
 #env
+<<<<<<< HEAD
 .env
+=======
+.env.local
+>>>>>>> 9685e7ce91f055af9e156473ca61a364d2ae5361
 .env.development
